@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Parcul de aventura Dr. "Ioan Vlad" Alba Iulia</title>
+		<link rel="stylesheet" href="css/descriere.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/png" href="favicon/favicon.png"/>
+	</head>
+	<body class="bg">
+		<div class="logo">
+			<img src="imagini/adventure_park.jpg" alt="Adventure_park" class="logo-img">
+		</div>
+		<div id="navbar" class="navbarMain">
+		  <a href="homepage.html">Acasa</a>
+		  <a href="descriere.html">Descriere si intrebari frecvente</a>
+		  <div id="dropdown">
+		    <button id="dropbtn">Despre Noi
+		      <i class="fa fa-caret-down"></i>
+		    </button>
+		    <div id="dropdown-content">
+		      <a href="preturi.html">Preturi</a>
+		      <a href="obiective.html">Imagini</a>
+		      <a href="harta_parcului.html">Harta parc</a>
+		  	</div>
+		  </div>
+		  <a href="contact.html">Contact</a> 
+		  <div class="mediaQuery">
+		  	
+		  </div>
+		</div>
+		<div class="content">
+			<h1 class="descriere">Descriere</h1>
+			<ul>
+				<li>Parcul de aventura Dr "Ion Vlad" Alba Iulia este unul dintre cele mai mari parcuri de aventura din Transilvania. A fost construit in anul 1960 la marginea orasului Alba Iulia, pe strada Valea Popii, in interiorul Parcului Dendrologic Doctor Ion Vlad. In zona se gaseste pista De biciclete "Mamut", Manastirea Sf. Ioan Botezatorul si barul Panoramic-Bar&Grill.
+				In 2016, am avut 10000 de vizitatori, iar in 2018 numarul a cresut la 16000.</li>
+				<li><h4 class="alineat">Ce activitati se desfasoara?</h4>
+				<h6 class="text">In incinta parcului avem urmatoarele componente:</h6></li>
+					<li><ol>
+						<li>Doua trasee in copaci</li>
+						<li>Trei locuri de joaca pentru copii</li>
+						<li>Un perete de escalada</li>
+						<li>Spatiu de inchiriere biciclete, care face legatura cu pista de biciclete "Mamut" de pe strada Valea Popii</li>
+						<li>Zona de tir cu arcul si darts</li>
+						<li>Teren de echitatie</li>
+					</ol></li>
+					<li>Pentru mai multe detalii legate de componente, intrati <a href="obiective.html">aici</a>.</li>
+				<li><h4 class="alineat">Care sunt preturile?</h4>
+				<h6 class="text">Preturile le gasiti <a href="preturi.html">aici.</a></h6></li>
+				<li><h4 class="alineat">Unde este localizat parcul?</h4>
+				<h6 class="text">Mai multe detalii <a href="contact.html">aici.</a></h6></li>
+				<li><h4 class="alineat">Care este programul?</h4>
+				<h6 class="text">Programul il puteti vedea in tabelul de mai jos:</h6></li>
+				<li><table>
+						<tr>
+							<th>Zi saptamana</th>
+							<th>Orar</th>
+						</tr>
+						<tr>
+							<td>Luni</td>
+							<td rowspan="5">10:00-20:00</td>
+						</tr>
+						<tr>
+							<td>Marti</td>
+						</tr>
+						<tr>
+							<td>Miercuri</td>
+						</tr>
+						<tr>
+							<td>Joi</td>
+						</tr>
+						<tr>
+							<td>Vineri</td>
+						</tr>
+						<tr>
+							<td>Sambata</td>
+							<td rowspan="2">07:00-22:00</td>
+						</tr>
+						<tr>
+							<td>Duminica</td>
+						</tr>
+					</table></li>
+				<li><h4 class="alineat">Unde va putem contacta/Unde se gaseste parcul?</h4>
+				<h6 class="text">Mai multe detalii <a href="contact.html">aici</a>.</h6></li>
+			</ul>
+		</div>
+
+	<!-- Formular -->
+		<div class="formularContact">
+			<h4><p class ="white">Contacteaza-ne</p></h4>
+			
+			<p id="cronometru"></p>
+			<!-- Email -->
+			<div class="emailField">
+		        <label for="inputEmail"><span class="white">Adresa mail: </span></label>
+		        <input type="email" id="inputEmail" placeholder="Adauga email">
+	    	</div>
+	    	<!-- Parola -->
+	    	<div class="passwordField">
+        		<label for="inputParola"><span class="white">Parola: </span></label>
+        		<input type="password" id="inputParola" placeholder="Adauga parola">
+    		</div>
+    		<!-- Nume -->
+    		<div class="nameField">
+        		<label for="inputNume"><span class="white">Nume complet: </span></label>
+        		<input type="text" id="inputNume" placeholder="Adauga nume">
+    		</div>
+    		<!-- Tip caine favorit -->
+    		<div class="dogField">
+    			<p class="white">Care este cainele tau preferat?</p>
+    			<select id="raseCaine">
+				  <option value="dalmatian">Dalmatian</option>
+				  <option value="labrador">Labrador</option>
+				  <option value="pashubian">Pashubian</option>
+				  <option value="ciobanesc">Ciobanesc german</option>
+				</select>
+			<!-- Varsta - checkbox -->
+    		</div>
+    		<div class="ageField">
+    			<input type="checkbox" name="varsta" value="varsta"><span class="white">Am peste 18 ani</span><br>
+    		</div>
+    		<!-- Gen -->
+    		<div class="genderField">
+    			<p class="white">Selectati genul:</p>
+    			<input type="radio" name="gender" value="male"><span class="white">Masculin</span><br>
+  				<input type="radio" name="gender" value="female"><span class="white">Feminin</span><br>
+    		</div>
+    		<!-- Varsta - range -->
+    		<div class="varsta">
+    			<p class="white">Alegeti varsta:</p>
+    			<input type="range" id="ageInput" name="varsta" min="0" max="120" onchange="arataVarsta(this.value)">
+    			<div id="showRange">
+
+    			</div>
+    		</div>
+    		<!-- Buton submit -->
+    		<button onclick="setTimeout(myFunction, 10000)" type="button" id="butonSubmit">Submit</button>
+	    </div>
+	    <div class="setari">
+		<p>Culoare pagina</p>
+		<div>
+			<select id="culoarePag">
+				  <option value="turquoise">Turquoise</option>
+				  <option value="white">Alb</option>
+				  <option value="black">Negru</option>
+			</select>
+		</div>
+		<div id="insertCaine">
+			<p>Alege alta rasa de catel</p>
+			<label for="inputCaine"><span>Caine: </span></label>
+        	<input type="text" id="inputCaine" placeholder="Adauga caine">
+        	<button type="button" id="butonCaine">Adauga</button>
+		</div>
+	</div>
+	    <!-- Adaugare fisier js -->
+		<script type="text/javascript" src="js/contact.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+	</body>
+</html>
